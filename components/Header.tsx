@@ -15,8 +15,8 @@ export default function Header() {
         </p>
 
         <div className="mt-0.5 sm:mt-0 text-[11px] sm:text-base leading-tight">
-          <p>(718) 745-6699</p>
-          <p>Brooklyn, NY</p>
+          <p><i className="bi bi-telephone-fill"></i> (718) 745-6699</p>
+          <p className="text-right">Brooklyn, NY</p>
         </div>
       </div>
     </header>
