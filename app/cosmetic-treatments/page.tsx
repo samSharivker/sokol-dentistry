@@ -1,3 +1,5 @@
+"use client"
+
 export default function Cosmetic_Treatments() {
   return (
     <div>

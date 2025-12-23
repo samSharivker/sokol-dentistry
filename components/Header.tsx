@@ -1,3 +1,5 @@
+"use client"
+
 export default function Header() {
   return (
     <header className="bg-blue-400 text-white text-shadow-2xs">
