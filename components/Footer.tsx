@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-400 text-white text-shadow-2xs flex flex-col items-center justify-center gap-3 py-4 px-4 sm:px-8">
+    <footer className="dark-blue-gradient text-white text-shadow-2xs flex flex-col items-center justify-center gap-3 py-4 px-4 sm:px-8">
       <nav
         className="
           flex flex-col items-center gap-1 text-center text-sm
@@ -42,7 +42,7 @@ export default function Footer() {
         "
       >
         <p className="wrap-break-words">
-          636 74th Street Brooklyn, NY 11209
+          <Link href="https://maps.app.goo.gl/Wdxh4zkUZZTqabpbA">636 74th Street Brooklyn, NY 11209</Link>
         </p>
         <span className="hidden sm:inline">|</span>
         <p className="whitespace-nowrap">(718) 745-6699</p>

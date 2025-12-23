@@ -8,7 +8,7 @@ const MapClient = dynamic(() => import("../../components/MapComponent"), {
 
 export default function Contact() {
   return (
-    <div className="flex flex-col items-center gap-4 p-6">
+    <div className="flex flex-col items-center gap-4 p-6 min-h-screen">
       <p>Contact Page</p>
       <div className="w-full max-w-3xl h-96">
         <MapClient />

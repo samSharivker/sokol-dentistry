@@ -31,9 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${roboto.variable} ${robotoMono.variable}`}>
-      <body className="bg-pink-100 font-roboto-mono antialiased">
+      <body className="bg-slate-100 font-roboto-mono antialiased">
         <Header />
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>
