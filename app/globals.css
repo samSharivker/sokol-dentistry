@@ -18,3 +18,11 @@
     --foreground: #ededed;
   }
 }
+
+.font-roboto {
+  font-family: var(--font-roboto), system-ui, sans-serif;
+}
+
+.font-roboto-mono {
+  font-family: var(--font-roboto-mono), monospace;
+}
