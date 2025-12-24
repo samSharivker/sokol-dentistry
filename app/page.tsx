@@ -41,7 +41,7 @@ export default function Home() {
             alt="home page"
             width={500}
             height={400}
-            className="w-full h-auto rounded-sm drop-shadow-sm"
+            className="w-full h-auto rounded-sm drop-shadow-sm dark-blue-gradient p-1"
             priority
           />
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
           Expertise
         </h2>
 
-        <p className="text-base sm:text-xl lg:text-2xl max-w-4xl leading-relaxed">
+        <p className="text-base sm:text-xl lg:text-2xl max-w-4xl leading-12">
           Sokol Dentistry has been bringing dentistry to Bay Ridge since 1982.
           The Sokols practice a full scope of general and cosmetic dentistry with
           expertise ranging from porcelain veneers to dental implants, crowns and
@@ -72,13 +72,13 @@ export default function Home() {
           cosmetic dental problems, and can literally redesign your smile.
         </p>
 
-        <div className="w-full max-w-4xl">
+        <div className="w-full max-w-2xl">
           <Image
-            src="https://placehold.co/700x400/png"
+            src="/thedoctors.jpg"
             alt="home page"
-            width={700}
-            height={400}
-            className="w-full h-auto rounded-sm drop-shadow-sm"
+            width={400}
+            height={300}
+            className="w-full h-auto rounded-sm drop-shadow-sm p-1 dark-blue-gradient"
           />
         </div>
       </section>
