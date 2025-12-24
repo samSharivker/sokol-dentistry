@@ -9,8 +9,7 @@ export default function Meet() {
         <p className="text-5xl font-bold md:text-9xl">Meet Us</p>
       </div>
 
-      {/* SECTION 1 */}
-      <section className="w-full bg-slate-200 px-6 py-12 md:px-20 md:py-20">
+      <section className="w-full bg-slate-200 px-6 py-12 md:px-20 md:py-20 shadow-lg">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="flex flex-col gap-3 md:max-w-xl">
             <p className="text-3xl font-bold md:text-5xl">Dr Joel L. Sokol, D.M.D.</p>
@@ -31,9 +30,7 @@ export default function Meet() {
             </p>
           </div>
 
-          {/* Image wrapper controls size */}
-          <div className="relative w-full overflow-hidden rounded-2xl md:w-[420px] lg:w-[520px]">
-            {/* aspect ratio prevents layout shift + weird stretching */}
+          <div className="relative w-full overflow-hidden rounded-sm md:w-[420px] lg:w-[520px]">
             <div className="relative aspect-[6/7] w-full">
               <Image
                 src="/meetdrjoel.png"
@@ -48,8 +45,7 @@ export default function Meet() {
         </div>
       </section>
 
-      {/* SECTION 2 */}
-      <section className="w-full px-6 py-12 md:px-20 md:py-20">
+      <section className="w-full px-6 py-12 md:px-20 md:py-20 shadow-xl">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="flex flex-col gap-3 md:max-w-xl">
             <p className="text-3xl font-bold md:text-5xl">Dr Jacob L. Sokol, D.D.S.</p>
@@ -65,7 +61,7 @@ export default function Meet() {
             </p>
           </div>
 
-          <div className="relative w-full overflow-hidden rounded-2xl md:w-[420px] lg:w-[520px]">
+          <div className="relative w-full overflow-hidden rounded-sm md:w-[420px] lg:w-[520px]">
             <div className="relative aspect-[6/7] w-full">
               <Image
                 src="/meetdrjacob.png"
