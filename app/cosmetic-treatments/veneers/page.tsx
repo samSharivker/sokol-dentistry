@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Whitening() {
+export default function Veneers() {
   return (
     <div>
       <Link
@@ -14,7 +14,7 @@ export default function Whitening() {
       >
         ← Back to Cosmetic Treatments
       </Link>
-      <p>Whitening Page</p>
+      <p>Veneers Page</p>
     </div>
   );
 }
