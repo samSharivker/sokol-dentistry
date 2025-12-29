@@ -17,7 +17,7 @@ export default function Home() {
           Transforming Dentistry
         </p>
         <p className="text-base sm:text-lg md:text-xl">
-          Proudly serving Bay Ridge since 1982!
+          Proudly serving Bay Ridge since 1988!
         </p>
         <Link href="/">
           <button
@@ -53,7 +53,7 @@ export default function Home() {
           <main>
             <p className="lg:text-xl leading-7">
               Sokol Dentistry has been bringing dentistry to Bay Ridge since
-              1982. The Sokols practice a full scope of general and cosmetic
+              1988. The Sokols practice a full scope of general and cosmetic
               dentistry with expertise ranging from porcelain veneers to dental
               implants, crowns and bridges. The Sokols can now correct a wide
               variety of so-called permanent cosmetic dental problems, and can
