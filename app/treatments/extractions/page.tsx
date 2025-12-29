@@ -2,35 +2,118 @@
 
 export default function Extractions() {
   return (
-    <div className="min-h-screen w-full flex flex-col items-center overflow-x-hidden">
-      <div className="w-full flex flex-col gap-5 px-6 py-10 md:px-20 md:py-20">
-        <p className="font-bold text-3xl sm:text-4xl md:text-5xl">Extractions</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">
-          You and Dr. Sokol may determine that you need a tooth extraction for any number of reasons. Some teeth are extracted because they are severely decayed; others may have advanced periodontal disease, or have broken in a way that cannot be repaired. Other teeth may need removal because they are poorly positioned in the mouth (such as impacted teeth), or in preparation for orthodontic treatment.
+    <div className="min-h-screen w-full flex flex-col bg-slate-100 overflow-x-hidden">
+      <section
+        className="w-full flex flex-col items-center text-center gap-4
+                   px-4 sm:px-6 md:px-10 lg:px-20
+                   py-16 sm:py-20 md:py-24"
+      >
+        <p className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-blue-950">
+          Extractions
         </p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">The removal of a single tooth can lead to problems related to your chewing ability, problems with your jaw joint, and shifting teeth, which can have a major impact on your dental health.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">To avoid these complications, in most cases, Dr. Sokol will discuss alternatives to extractions as well replacement of the extracted tooth.</p>
-      </div>
-      <div className="w-full flex flex-col gap-5 px-6 py-10 md:px-20 md:py-20 bg-slate-200">
-        <p className="font-bold text-3xl sm:text-4xl md:text-5xl">The Extraction Process</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">At the time of extraction the doctor will need to numb your tooth, jawbone and gums that surround the area with a local anesthetic.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">During the extraction process you will feel a lot of pressure. This is from the process of firmly rocking the tooth in order to widen the socket for removal.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">You feel the pressure without pain as the anesthetic has numbed the nerves stopping the transference of pain, yet the nerves that transmit pressure are not profoundly affected.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">If you do feel pain at any time during the extraction please let us know right away.</p>
-      </div>
-      <div className="w-full flex flex-col gap-5 px-6 py-10 md:px-20 md:py-20">
-        <p className="font-bold text-3xl sm:text-4xl md:text-5xl">Sectioning a tooth</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">Some teeth require sectioning. This is a very common procedure done when a tooth is so firmly anchored in its socket or the root is curved and the socket can’t expand enough to remove it. The doctor simply cuts the tooth into sections then removes each section one at a time.</p>
-      </div>
-      <div className="w-full flex flex-col gap-5 px-6 py-10 md:px-20 md:py-20 bg-slate-200">
-        <p className="font-bold text-3xl sm:text-4xl md:text-5xl">After Tooth Extraction</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">After tooth extraction, it’s important for a blood clot to form to stop the bleeding and begin the healing process. Bite on a gauze pad for 30-45 minutes immediately after the appointment. If the bleeding or oozing still persists, place another gauze pad and bite firmly for another 30 minutes. You may have to do this several times to staunch the flow of blood.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">After the blood clot forms it is important to not disturb or dislodge the clot. Do not rinse vigorously, suck on straws, smoke, drink alcohol or brush teeth next to the extraction site for 72 hours. These activities may dislodge or dissolve the clot and hinder the healing process. Limit vigorous exercise for the next 24 hours, as this increases blood pressure and may cause more bleeding from the extraction site.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">After the tooth is extracted you may feel some pain and experience some swelling. An ice pack or an unopened bag of frozen peas or corn applied to the area will keep swelling to a minimum. Take pain medications as prescribed. The swelling usually subsides after 48 hours.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">Use pain medication as directed. Call our office if the medication doesn’t seem to be working. If antibiotics are prescribed, continue to take them for the indicated length of time even if signs and symptoms of infection are gone. Drink lots of fluids and eat nutritious, soft food on the day of the extraction. You can eat normally as soon as you are comfortable.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">It is important to resume your normal dental routine after 24 hours. This should include brushing and flossing your teeth at least once a day. This will speed healing and help keep your mouth fresh and clean.</p>
-        <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8 max-w-5xl">After a few days you should feel fine and can resume your normal activities. If you have heavy bleeding, severe pain, continued swelling for 2-3 days, or a reaction to the medication, call our office immediately.</p>
-      </div>
+        <p className="text-base sm:text-lg md:text-xl max-w-3xl">
+          Gentle, careful treatment focused on protecting your comfort and your
+          long-term oral health.
+        </p>
+      </section>
+      <section className="w-full px-4 sm:px-8 md:px-12 lg:px-20 pb-12 sm:pb-16 md:pb-20">
+        <div className="mx-auto max-w-5xl bg-slate-50 shadow-md rounded-md p-6 sm:p-8 md:p-10 flex flex-col gap-4">
+          <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+            You and Dr. Sokol may determine that you need a tooth extraction for
+            any number of reasons. Some teeth are extracted because they are
+            severely decayed; others may have advanced periodontal disease, or
+            have broken in a way that cannot be repaired. Other teeth may need
+            removal because they are poorly positioned in the mouth (such as
+            impacted teeth), or in preparation for orthodontic treatment.
+          </p>
+          <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+            The removal of a single tooth can lead to problems related to your
+            chewing ability, your jaw joint, and shifting teeth, which can have
+            a major impact on your dental health.
+          </p>
+          <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+            To help avoid these complications, in most cases Dr. Sokol will
+            discuss alternatives to extraction as well as replacement options
+            for the extracted tooth.
+          </p>
+        </div>
+      </section>
+      <section className="w-full bg-slate-200 px-4 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl flex flex-col gap-6">
+          <p className="font-bold text-3xl sm:text-4xl md:text-5xl text-blue-950">
+            The Extraction Process
+          </p>
+          <div className="bg-slate-50 shadow-md rounded-md p-6 sm:p-8 md:p-10 flex flex-col gap-4">
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              At the time of extraction, the doctor will numb your tooth,
+              jawbone, and the gums surrounding the area with a local
+              anesthetic.
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              During the extraction process you may feel pressure as the tooth
+              is gently rocked to widen the socket for removal — this is normal.
+              The anesthetic prevents pain, although the nerves that sense
+              pressure are not fully numbed.
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              If you feel pain at any time during the procedure, please let us
+              know immediately.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="w-full px-4 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl flex flex-col gap-6">
+          <p className="font-bold text-3xl sm:text-4xl md:text-5xl text-blue-950">
+            Sectioning a Tooth
+          </p>
+          <div className="bg-slate-50 shadow-md rounded-md p-6 sm:p-8 md:p-10">
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              Some teeth require sectioning. This is a common technique used
+              when a tooth is firmly anchored in its socket or when the root is
+              curved and the socket cannot expand enough for removal. The doctor
+              gently divides the tooth into sections and removes each piece
+              individually.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="w-full bg-slate-200 px-4 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20 pb-24">
+        <div className="mx-auto max-w-5xl flex flex-col gap-6">
+          <p className="font-bold text-3xl sm:text-4xl md:text-5xl text-blue-950">
+            After Tooth Extraction
+          </p>
+          <div className="bg-slate-50 shadow-md rounded-md p-6 sm:p-8 md:p-10 flex flex-col gap-4">
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              After tooth extraction, a blood clot must form to stop bleeding
+              and begin healing. Bite on a gauze pad for 30–45 minutes
+              immediately following your appointment. If bleeding continues,
+              replace the gauze and bite firmly for another 30 minutes.
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              Once the clot forms, do not disturb or dislodge it. Avoid vigorous
+              rinsing, straws, smoking, alcohol, or brushing the teeth next to
+              the site for 72 hours. Limit strenuous activity for 24 hours as it
+              may increase bleeding.
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              Some swelling and discomfort is normal. Use an ice pack to reduce
+              swelling and take pain medication as directed. Swelling typically
+              subsides after 48 hours.
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              Continue antibiotics as prescribed, even if symptoms improve. Eat
+              soft, nutritious foods and drink plenty of fluids. Resume normal
+              brushing and flossing after 24 hours to support healing.
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
+              If you experience heavy bleeding, severe pain, continued swelling
+              after 2–3 days, or a reaction to medication, contact our office
+              immediately.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
