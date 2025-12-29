@@ -16,25 +16,40 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="hidden lg:flex space-x-8">
-            <Link href="/" className="hover:text-blue-950">
+            <Link href="/" className="hover:text-blue-950 hover:font-bold">
               Home
             </Link>
-            <Link href="/information" className="hover:text-blue-950">
+            <Link
+              href="/information"
+              className="hover:text-blue-950 hover:font-bold"
+            >
               Information
             </Link>
-            <Link href="/treatments" className="hover:text-blue-950">
+            <Link
+              href="/treatments"
+              className="hover:text-blue-950 hover:font-bold"
+            >
               Treatments
             </Link>
-            <Link href="/cosmetic-treatments" className="hover:text-blue-950">
+            <Link
+              href="/cosmetic-treatments"
+              className="hover:text-blue-950 hover:font-bold"
+            >
               Cosmetic Treatments
             </Link>
-            <Link href="/dental-health" className="hover:text-blue-950">
+            <Link
+              href="/dental-health"
+              className="hover:text-blue-950 hover:font-bold"
+            >
               Dental Health
             </Link>
-            <Link href="/meet" className="hover:text-blue-950">
+            <Link href="/meet" className="hover:text-blue-950 hover:font-bold">
               Meet Us
             </Link>
-            <Link href="/contact" className="hover:text-blue-950">
+            <Link
+              href="/contact"
+              className="hover:text-blue-950 hover:font-bold"
+            >
               Contact
             </Link>
           </div>
@@ -68,28 +83,46 @@ export default function Navbar() {
       {open && (
         <div className="lg:hidden border-t bg-slate-100">
           <div className="space-y-2 px-4 py-4">
-            <Link href="/" className="block hover:text-blue-950">
+            <Link
+              href="/"
+              className="block hover:text-blue-950 hover:font-bold"
+            >
               Home
             </Link>
-            <Link href="/information" className="block hover:text-blue-950">
+            <Link
+              href="/information"
+              className="block hover:text-blue-950 hover:font-bold"
+            >
               Information
             </Link>
-            <Link href="/treatments" className="block hover:text-blue-950">
+            <Link
+              href="/treatments"
+              className="block hover:text-blue-950 hover:font-bold"
+            >
               Treatments
             </Link>
             <Link
               href="/cosmetic-treatments"
-              className="block hover:text-blue-950"
+              className="block hover:text-blue-950 hover:font-bold"
             >
               Cosmetic Treatments
             </Link>
-            <Link href="/dental-health" className="block hover:text-blue-950">
+            <Link
+              href="/dental-health"
+              className="block hover:text-blue-950 hover:font-bold"
+            >
               Dental Health
             </Link>
-            <Link href="/meet" className="block hover:text-blue-950">
+            <Link
+              href="/meet"
+              className="block hover:text-blue-950 hover:font-bold"
+            >
               Meet Us
             </Link>
-            <Link href="/contact" className="block hover:text-blue-950">
+            <Link
+              href="/contact"
+              className="block hover:text-blue-950 hover:font-bold"
+            >
               Contact
             </Link>
           </div>
