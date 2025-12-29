@@ -21,7 +21,8 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Sokol Dentistry",
-  description: "Family, cosmetic, and general dentistry by Joel L. Sokol, DMD & Jacob L. Sokol, DDS",
+  description:
+    "Family, cosmetic, and general dentistry by Joel L. Sokol, DMD & Jacob L. Sokol, DDS",
 };
 
 export default function RootLayout({
@@ -32,8 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${roboto.variable} ${robotoMono.variable}`}>
       <body className="bg-slate-100 font-roboto-mono antialiased">
-        {/* <Header /> */}
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
         {/* <Footer /> */}
       </body>

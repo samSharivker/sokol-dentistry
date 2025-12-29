@@ -14,7 +14,7 @@ export default function Home() {
           className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 
                       max-w-4xl leading-20 text-blue-950"
         >
-          Transforming Oral Care
+          Transforming Dentistry
         </p>
         <p className="text-base sm:text-lg md:text-xl">
           Proudly serving Bay Ridge since 1982!
