@@ -33,7 +33,7 @@ export default function Meet() {
           <div className="relative w-full overflow-hidden rounded-sm md:w-[420px] lg:w-[520px]">
             <div className="relative aspect-[6/7] w-full">
               <Image
-                src="/meetdrjoel.png"
+                src="/img/meetdrjoel.png"
                 alt="Dr Joel L. Sokol"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 420px, 520px"
@@ -64,7 +64,7 @@ export default function Meet() {
           <div className="relative w-full overflow-hidden rounded-sm md:w-[420px] lg:w-[520px]">
             <div className="relative aspect-[6/7] w-full">
               <Image
-                src="/meetdrjacob.png"
+                src="/img/meetdrjacob.png"
                 alt="Dr Jacob L. Sokol"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 420px, 520px"

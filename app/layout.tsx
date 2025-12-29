@@ -32,10 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${roboto.variable} ${robotoMono.variable}`}>
       <body className="bg-slate-100 font-roboto-mono antialiased">
-        <Header />
+        {/* <Header /> */}
         {/* <Navbar /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
