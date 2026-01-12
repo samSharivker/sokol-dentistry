@@ -3,52 +3,150 @@
 import Link from "next/link";
 
 export default function Treatments() {
+  const items = [
+    {
+      href: "/treatments/bridges",
+      label: "Dental Bridges",
+      icon: "link-45deg",
+      desc: "Replace missing teeth and restore function",
+    },
+    {
+      href: "/treatments/crowns",
+      label: "Dental Crowns",
+      icon: "gem",
+      desc: "Strengthen and protect damaged teeth",
+    },
+    {
+      href: "/treatments/dentures",
+      label: "Dentures",
+      icon: "person-badge-fill",
+      desc: "Comfortable full or partial tooth replacement",
+    },
+    {
+      href: "/treatments/extractions",
+      label: "Tooth Extractions",
+      icon: "x-circle-fill",
+      desc: "Safe removal when a tooth can’t be saved",
+    },
+    {
+      href: "/treatments/fillings",
+      label: "Fillings / Restorations",
+      icon: "layers-fill",
+      desc: "Repair cavities and minor tooth damage",
+    },
+    {
+      href: "/treatments/implants",
+      label: "Dental Implants",
+      icon: "plus-circle-fill",
+      desc: "A permanent solution for missing teeth",
+    },
+    {
+      href: "/treatments/root-canal",
+      label: "Non-Surgical Root Canal",
+      icon: "activity",
+      desc: "Relieve pain and save an infected tooth",
+    },
+    {
+      href: "/treatments/sealants",
+      label: "Dental Sealants",
+      icon: "shield-fill-check",
+      desc: "Extra protection against decay",
+    },
+  ];
+
   return (
-    <div className="min-h-screen w-full flex flex-col bg-slate-100">
-      <section
-        className="flex flex-col items-center text-center gap-4
-                   px-4 sm:px-6 md:px-10 lg:px-20
-                   py-16 sm:py-20 md:py-24"
-      >
-        <p className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-blue-950">
-          Treatments
-        </p>
-        <p className="text-base sm:text-lg md:text-xl max-w-2xl">
-          Comprehensive restorative and cosmetic dental care tailored to your
-          needs — explore our treatment options below.
-        </p>
-      </section>
-      <section className="w-full bg-slate-200 px-4 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20 pb-24">
-        <div className="mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {[
-            { href: "/treatments/bridges", label: "Dental Bridges" },
-            { href: "/treatments/crowns", label: "Dental Crowns" },
-            { href: "/treatments/dentures", label: "Dentures" },
-            { href: "/treatments/extractions", label: "Tooth Extractions" },
-            { href: "/treatments/fillings", label: "Fillings / Restorations" },
-            { href: "/treatments/implants", label: "Dental Implants" },
-            {
-              href: "/treatments/root-canal",
-              label: "Non-Surgical Root Canal",
-            },
-            { href: "/treatments/sealants", label: "Dental Sealants" },
-          ].map(({ href, label }) => (
-            <Link
-              key={href}
-              href={href}
-              className="bg-slate-50 shadow-md rounded-md p-6 sm:p-8 flex flex-col
-                         justify-between gap-3 border border-transparent
-                         hover:border-blue-900 hover:bg-white hover:shadow-lg
-                         transition-all duration-200"
-            >
-              <p className="font-semibold text-xl sm:text-2xl text-blue-950">
-                {label}
-              </p>
-              <span className="text-sm sm:text-base underline underline-offset-4 text-blue-900">
-                Learn More →
+    <div className="min-h-screen w-full flex flex-col bg-slate-100 overflow-x-hidden">
+      <section className="relative w-full">
+        <div className="absolute inset-0">
+          <div className="h-full w-full bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900" />
+          <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.25)_0,transparent_35%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.18)_0,transparent_40%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-slate-100" />
+        </div>
+
+        <div className="relative z-10 px-4 sm:px-6 md:px-10 lg:px-20 pt-10 sm:pt-12 md:pt-14">
+          <div className="mx-auto max-w-6xl">
+            <div className="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/10 px-3 py-2 text-white backdrop-blur">
+              <i className="bi bi-stars" />
+              <span className="uppercase tracking-wider text-xs sm:text-sm">
+                Restorative & Cosmetic Care
               </span>
-            </Link>
-          ))}
+            </div>
+
+            <div className="mt-8 pb-24 sm:pb-28 md:pb-32">
+              <p className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white">
+                Treatments
+              </p>
+              <p className="mt-4 text-base sm:text-lg md:text-xl max-w-2xl text-white/85">
+                Comprehensive restorative and cosmetic dental care tailored to
+                your needs — explore our treatment options below.
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-2">
+                <span className="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/10 px-3 py-2 text-sm text-white/90 backdrop-blur">
+                  <i className="bi bi-shield-check" />
+                  Comfort-focused care
+                </span>
+                <span className="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/10 px-3 py-2 text-sm text-white/90 backdrop-blur">
+                  <i className="bi bi-award-fill" />
+                  Quality materials
+                </span>
+                <span className="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/10 px-3 py-2 text-sm text-white/90 backdrop-blur">
+                  <i className="bi bi-clipboard2-check-fill" />
+                  Personalized planning
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full px-4 sm:px-8 md:px-12 lg:px-20 -mt-14 sm:-mt-16 md:-mt-20 pb-24">
+        <div className="mx-auto max-w-6xl">
+          <div className="rounded-md border border-blue-950/10 bg-slate-50/90 backdrop-blur shadow-lg p-5 sm:p-6 md:p-7">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <p className="text-sm sm:text-base text-slate-700">
+                Select a treatment to learn what it is, when it’s recommended,
+                and what to expect.
+              </p>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-blue-950 text-white px-4 py-2 shadow-sm hover:opacity-95 transition w-full sm:w-auto"
+              >
+                <i className="bi bi-chat-left-text-fill" />
+                Contact Us
+              </Link>
+            </div>
+
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+              {items.map(({ href, label, icon, desc }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="group rounded-md border border-blue-950/10 bg-white shadow-sm
+                             p-5 sm:p-6 flex items-start justify-between gap-4
+                             hover:shadow-md hover:border-blue-950/25
+                             transition-all duration-200"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-blue-950 text-white">
+                      <i className={`bi bi-${icon} text-lg`} />
+                    </div>
+
+                    <div className="flex flex-col gap-1">
+                      <p className="font-semibold text-lg sm:text-xl text-blue-950">
+                        {label}
+                      </p>
+                      <p className="text-sm sm:text-base text-slate-600 leading-6 sm:leading-7">
+                        {desc}
+                      </p>
+                    </div>
+                  </div>
+
+                  <i className="bi bi-arrow-right text-blue-950 text-lg mt-1 transition-transform duration-200 group-hover:translate-x-1" />
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </div>
